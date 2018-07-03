@@ -16,7 +16,7 @@ function currentLine(katzDeliLine) {
   var response = [], i = 1;
   if (katzDeliLine) {
     for (var person in katzDeliLine) {
-      response += `${i}: ${person}`;
+      response.push(`${i}: ${person}`);
     }
   }
 }
