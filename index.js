@@ -14,7 +14,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine) {
   var response = [];
-  if (katzDeliLine.length > 0) {
+  if (katzDeliLine.length) {
     for (var i = 0; i < katzDeliLine.length; i++) {
       response.push(`${i + 1}. ${katzDeliLine[i]}`);
     }
