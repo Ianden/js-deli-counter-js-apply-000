@@ -16,7 +16,7 @@ function currentLine(katzDeliLine) {
   var response = [], i = 1;
   if (katzDeliLine) {
     for (var person in katzDeliLine) {
-      response.push(`${i}: ${person}`);
+      response.push(`${katzDeliLine.findIndex(e => e == person)}: ${person}`);
       i++;
     }
   }
