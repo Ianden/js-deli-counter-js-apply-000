@@ -18,5 +18,6 @@ function currentLine(katzDeliLine) {
     for (var person in katzDeliLine) {
       response.push(`${katzDeliLine.findIndex(e => e == person) + 1}: ${person}`);
     }
+    return response.join(", ");
   }
 }
