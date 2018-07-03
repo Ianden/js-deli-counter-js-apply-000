@@ -13,8 +13,8 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var i = 0, response;
-  for (var person in katzDeliLine) {
-
+  let response = "", i = 0;
+  if (katzDeliLine) {
+    
   }
 }
