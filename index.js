@@ -13,8 +13,8 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  let response = "", i = 0;
+  var response = "", i = 0;
   if (katzDeliLine) {
-    
+
   }
 }
