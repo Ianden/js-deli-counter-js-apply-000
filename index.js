@@ -12,3 +12,9 @@ function nowServing(katzDeliLine) {
   return "The line is currently empty.";
 }
 
+function currentLine(katzDeliLine) {
+  var i = 0, response;
+  for (var person in katzDeliLine) {
+
+  }
+}
