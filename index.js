@@ -17,6 +17,7 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine) {
     for (var person in katzDeliLine) {
       response.push(`${i}: ${person}`);
+      i++;
     }
   }
 }
