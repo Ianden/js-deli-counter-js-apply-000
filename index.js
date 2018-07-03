@@ -6,14 +6,13 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine) {
+  if (katzDeliLine.length) {
     return `Currently serving ${katzDeliLine.shift()}.`;
   }
   return "The line is currently empty.";
 }
 
 function currentLine(katzDeliLine) {
-  console.log(katzDeliLine);
   var response = [];
   if (katzDeliLine.length > 0) {
     for (var i = 0; i < katzDeliLine.length; i++) {
