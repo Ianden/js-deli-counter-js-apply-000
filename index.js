@@ -13,10 +13,10 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var response = [], i = 1;
+  var response = [];
   if (katzDeliLine) {
     for (var person in katzDeliLine) {
-      response.push(`${katzDeliLine.findIndex(e => e == person)}: ${person}`);
+      response.push(`${katzDeliLine.findIndex(e => e == person) + 1}: ${person}`);
     }
   }
 }
