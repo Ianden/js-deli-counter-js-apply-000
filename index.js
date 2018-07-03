@@ -20,5 +20,5 @@ function currentLine(katzDeliLine) {
     }
     return "The line is currently: " + response.join(", ");
   }
-  return "There is nobody waiting to be served!"
+  return "The line is currently empty."
 }
