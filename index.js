@@ -17,7 +17,7 @@ function currentLine(katzDeliLine) {
   var response = [];
   if (katzDeliLine.length) {
     for (var i = 0; i < katzDeliLine.length; i++) {
-      response += `${i + 1}: ${katzDeliLine[0]}`;
+      response += `${i + 1}: ${katzDeliLine[i]}`;
     }
     return response.join(", ");
   }
