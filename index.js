@@ -6,5 +6,8 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-  return `Currently serving ${katzDeliLine.shift()}.`
+  if (katzDeliLine) {
+    return `Currently serving ${katzDeliLine.shift()}.`
+  }
+  return "The line is currently empty."
 }
