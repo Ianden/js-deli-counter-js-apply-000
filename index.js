@@ -15,7 +15,7 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   console.log(katzDeliLine);
   var response = [];
-  if (katzDeliLine) {
+  if (katzDeliLine.length) {
     for (var i = 0; i < katzDeliLine.length; i++) {
       response += `${i + 1}: ${person}`;
     }
