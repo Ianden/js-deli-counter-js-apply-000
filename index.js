@@ -13,6 +13,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
+  console.log(katzDeliLine);
   var response = [];
   if (katzDeliLine) {
     for (var person in katzDeliLine) {
